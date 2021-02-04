@@ -48,4 +48,17 @@ https://www.vmware.com/products/workstation-player.html
 
 - Recuerda que en tu VMware o lo que sea, debes configurar la VM con 1 adaptador de red en modo NAT + 1 en modo adaptador solo-anfitrion ( si quieres tener acceso SSH desde fuera) 😁 
 
+## 6. Echale candela a esa máquina!!! Encendámos la VM:
+
+- Vamos paso a paso, pero mientras tienes un video de guia https://youtu.be/QHAbL9P_LA4?t=191
+
+## 7. Si ya esta la VM ok, registremos el RHEL con Insights
+
+Como escogimos RHEL 8, ahora solo es hacer 1 comando mágico:
+
+```
+insights-client --register
+```
+
+
 ![title](https://untrite.com/wp-content/uploads/2019/01/automate-everything.jpg)
