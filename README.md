@@ -44,6 +44,8 @@ https://www.virtualbox.org/wiki/Downloads
 o de aqui:
 https://www.vmware.com/products/workstation-player.html
 
-😁 
+## 5. Configura la VM adecuadamente:
+
+- Recuerda que en tu VMware o lo que sea, debes configurar la VM con 1 adaptador de red en modo NAT + 1 en modo adaptador solo-anfitrion ( si quieres tener acceso SSH desde fuera) 😁 
 
 ![title](https://untrite.com/wp-content/uploads/2019/01/automate-everything.jpg)
