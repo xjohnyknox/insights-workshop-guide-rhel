@@ -1,60 +1,49 @@
 # Workshop about RHEL 8 and Insights right from your laptop 💻🔥🚀
-I was tired of spending so much time ⏰ 😫 in the process of setup a new installation of ubuntu, so with a playbook would be better to mainting a single script for all the usecases... (Spotify, VScode, steam, etc). 🚀
 
+Bienvenido a este taller, aqui instalarás RHEL versión 8, configuraras tu laptop con una VM y montaremos Insights en esa máquina 🚀
 
-💻 So, this playbook will execute a initial setup for a brand new Ubuntu 20.04 systems.
+*Requisitos:*
 
-🧰 A number of packages will be created with the options specified in the `vars/default.yml` variable file.
+💻 Laptop con suficiente RAM/disco, para montar Virtualbox/VMware Player etc.
+
+🧰 Internet y tiempo.
+
 
 ![title](https://media1.tenor.com/images/0ac80d82231814ec9d7d331861b855c1/tenor.gif?itemid=5425050)
 
-## Settings
+## 1. Crea una cuenta en access.redhat.com
 
-- `create_user`: the name of the remote sudo user to create ⚠️ ➡️  **(this is optional)
-- `copy_local_key`: path to a local SSH public key that will be copied as authorized key for the new user. By default, it copies the key from the current system user running Ansible. ⚠️ ➡️  **(this is optional)
-- `sys_packages`: array with list of packages that should be installed. ⚠️ ➡️  **(this is important)⚠️
+- Abre este link https://access.redhat.com/downloads/
+- Selecciona Red Hat Enterprise Linux 8
+- Haz click en: "Crear una cuenta"  
+- En tipo de cuenta: Selecciona personal
+- En ID de inicio: Pone un nickname que quieras usar
+- Luego completa el formulario con los datos y da click en Crear mi cuenta
 
-Also, inside the playbook.yml:
 
-There is a part for use installation scripts for common software like Microsoft Teams, Browsers, and so on. 😁
-- `#  Scripts for install more packages`
+## 2. Activa tu cuenta
 
-## Running this Playbook
+Seguramente te llegará un correo dandote la bienvenida y pidiendo activar la cuenta ---> Hazlo!
 
-Quick Steps:
+## 3. Descarga la iso de Red Hat Enterprise Linux 8
 
-### 1. Obtain the playbook
-```shell
-git clone https://github.com/xjohnyknox/ubuntu-setup.git
-cd ubuntu-setup
+- Ingresa de nuevo al link: https://access.redhat.com/downloads/
+- Luego Selecciona Red Hat Enterprise Linux 8
+- Descarga el que dice: 
+```
+Red Hat Enterprise Linux 8.3 Boot ISO
 ```
 
-### 2. Customize Options
+## 4. Monta la iso en tu virtualbox/vmware workstation
 
-```shell
-vim vars/default.yml
 ```
-
-```yml
-#vars/default.yml
----
-create_user: sammy
-copy_local_key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub') }}"
-sys_packages: [ 'name-of-package-to-install','name-of-package-to-install2','name-of-package-to-install3']
+Tienes ya esto instalado no?
 ```
+Si no lo tienes instalado puedes bajarlo de aqui:
+https://www.virtualbox.org/wiki/Downloads
+o de aqui:
+https://www.vmware.com/products/workstation-player.html
 
-```Special scripts
-vim playbook.yml
----
-#  Scripts for install more packages
-```
-
-
-### 3. Run the Playbook
-
-```command
-ansible-playbook -l [target] -i [inventory file] -u [remote user] playbook.yml
-```
-That's all, i'm trying to improve this playbook, as i test it from my own ubuntu laptop 😁 
+😁 
 
 ![title](https://untrite.com/wp-content/uploads/2019/01/automate-everything.jpg)
