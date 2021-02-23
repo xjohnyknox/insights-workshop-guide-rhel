@@ -10,7 +10,7 @@ Bienvenido a este taller, aqui instalarás RHEL versión 8, configuraras tu lapt
 
 Ve descargando esta iso por favor:
 
-https://mega.nz/file/Zk5W0BDB#zNAZcO5PT7H2jGVr0-a7Q3sNvVdkJgIvldyCdnhxTX8
+https://mega.nz/file/VkwEzBzQ#sHp6cQ4dehXDUpeoXQ8wwtU7ur79UE7aibFKC5PHHtQ
 
 
 ![title](https://media1.tenor.com/images/0ac80d82231814ec9d7d331861b855c1/tenor.gif?itemid=5425050)
