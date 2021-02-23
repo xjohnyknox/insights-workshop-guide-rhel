@@ -17,8 +17,8 @@ https://mega.nz/file/VkwEzBzQ#sHp6cQ4dehXDUpeoXQ8wwtU7ur79UE7aibFKC5PHHtQ
 
 ## 1. Crea una cuenta en access.redhat.com
 
-- Abre este link https://access.redhat.com/products/red-hat-enterprise-linux/evaluation
-- Haz click en: "Crear una cuenta"  
+- Abre este link https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/try-it
+- Haz click en: "Start your trial"  
 - En tipo de cuenta: Selecciona personal
 - En ID de inicio: Pone un nickname que quieras usar
 - Luego completa el formulario con los datos y da click en Crear mi cuenta
