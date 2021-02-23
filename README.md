@@ -17,8 +17,7 @@ https://mega.nz/file/VkwEzBzQ#sHp6cQ4dehXDUpeoXQ8wwtU7ur79UE7aibFKC5PHHtQ
 
 ## 1. Crea una cuenta en access.redhat.com
 
-- Abre este link https://access.redhat.com/downloads/
-- Selecciona Red Hat Enterprise Linux 8
+- Abre este link https://access.redhat.com/products/red-hat-enterprise-linux/evaluation
 - Haz click en: "Crear una cuenta"  
 - En tipo de cuenta: Selecciona personal
 - En ID de inicio: Pone un nickname que quieras usar
